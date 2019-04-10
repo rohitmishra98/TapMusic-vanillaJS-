@@ -52,7 +52,7 @@ header h1{
 }
 
 
-@keyframes jump {
+@keyframes jump0 {
     0% {
       bottom: 0%;
       left: 20%;
@@ -67,6 +67,82 @@ header h1{
       left: 80%;
     }
   }
+  @keyframes jump1 {
+    100% {
+      bottom: 0%;
+      left: 20%;
+    }
+    50% {
+      bottom: 50%;
+      left: 50%;
+    }
+  
+    0% {
+      bottom: 00%;
+      left: 80%;
+    }
+  }
+  @keyframes jump2 {
+    0% {
+      bottom: 100%;
+      left: 20%;
+    }
+    50% {
+      bottom: 50%;
+      left: 50%;
+    }
+  
+    100% {
+      bottom: 100%;
+      left: 80%;
+    }
+  }
+
+  @keyframes jump3 {
+    0% {
+      top: 0%;
+      left: 60%;
+    }
+    20% {
+        top: 20%;
+        left: 40%;
+      }
+    40% {
+      top: 40%;
+      left: 60%;
+    }
+    60% {
+        top: 60%;
+        left: 40%;
+      }
+    80% {
+    top: 80%;
+    left: 60%;
+    }
+  
+    100% {
+      top: 80%;
+      left: 40%;
+    }
+  }
+
+  @keyframes jump4 {
+    0% {
+      bottom: 0%;
+      left: 20%;
+    }
+    50% {
+      bottom: 50%;
+      left: 50%;
+    }
+  
+    100% {
+      bottom: 00%;
+      left: 80%;
+    }
+  }
+
+
 
   .visual > div{
       position:absolute;
